@@ -23,11 +23,11 @@ print(bool(0))
 
 int = str
 
-user_name =  int(input("Enter your name: "))
-user_surname = int(input("Enter your surname: "))
-user_age = int(input("Enter your age: "))
+user_name =
+user_surname =
+user_age =
 
-print(int(f"The users name is {user_name} her/his age is {user_age} and her/his surname is {user_surname}"))
+print(""
 
 
 num1 = int(input("Enter random number: "))
@@ -35,7 +35,7 @@ num2 = int(input("Enter random number: "))
 num3 = int(input("Enter random number: "))
 num4 = int(input("Enter random number: "))
 num5 = int(input("Enter random number: "))
-num6 = 5
-print(f"The Aritmetical mean is {num1 + num2 + num3 + num4 + num5 } / {num6} ")
+num6 = (num1 + num2 + num3 + num4 + num5 ) / 5
+print(f"The Aritmetical mean is : {num6} ")
 
 
