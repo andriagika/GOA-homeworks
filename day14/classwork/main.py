@@ -17,7 +17,7 @@ print(False or False)
 # print(True and False or False and False or True)
 # # ეს გამოიტანს True-ს
 
-soil_moisture = input("Enter the temperature : ")
+soil_moisture = int(input("Enter the temperature : "))
 print(soil_moisture > 100)
 
 print(6 > 2 and 9 > 3)
