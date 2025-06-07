@@ -1,7 +1,7 @@
-for i in range(50,201):
+for i in range(50,200):
     print(i)
 
-for i in range(2,100,2):
+for i in range(2,101,2):
     print(i)
 
 for i in range(101,150,2):
