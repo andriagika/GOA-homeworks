@@ -18,17 +18,20 @@
 # info[0] = input("Enter your name: ")
 # info[1] = input("Enter your surname: ")
 # info[2]= int(input("Enter your id: "))
-# info[-1] = input("Enter your region: ")
+# info[3] = input("Enter your region: ")
 # print(info)
 # print(info[0])
 # print(info[1])
 # print(info[2])
-# print(info[-1])
+# print(info[3])
 # 4) შექმენით Vending Machine პროგრამა.
 
 # შექმენით Vending Machine სია სადაც მინიმუმ 10 ცალ პროდუქტს დაამატებთ. მომხმარებელი უნდა ირჩევდეს პროდუქტის ინდექსს და შემდეგ თქვენ პროდუქტის დასახელება უნდა გამოუტანოთ ტერმინალში. (პირობაში დეტალები არ მიწერია, ასერომ ეცადეთ რაც შეიძლება დახვეწილი და მომხმარებლისთვის მოსახერხებელი პროგრამა შექმნათ)
 # Vending_Machine = ["Snikers", "Twix", "Fanta", "Lay,s", "Oreo", "Drew", "Pepsi", "Doritos", "Bounty", "Gummy bears"]
-
+# number = int(input("choose the product: "))
+# for i in range(10):
+#     if i == number:
+#         print(Vending_Machine[i])
 
 # 5) შექმენით Fruits სია: 
 # Fruits = ["Strawberry", "Mango", "Melon", "Cherry"]
@@ -39,6 +42,7 @@
 # Fruits[-1] = "Watermelon"
 # Fruits[1] = "Pear"
 # print(Fruits)
+
 # 6) რამდენიმე ცვლადში შინახეთ სხვადასხვა სიტყვა. ამ სიტყვების გამოყენებით ააწყვეთ ერთი მთლიანი სიტყვა. მაგ.
 # ("Moon", "light" -- "Moonlight")
 # puzzle = ["melon", "water", "sand"]
