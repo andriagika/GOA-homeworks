@@ -22,14 +22,15 @@ print(Alphabet[::-2])
 # ამოიღეთ text ცვლადიდან სიტყვა "Slicing". შემდეგ შეაბრუნეთ და გამოიტანეთ შედეგის სახით ეკრანზე.
 text = "IndexingAndSlicingIsPowerful"
 print(text[11:18])
-print(text[-11:-18:-1])
+print(text[::-1])
 # 6) მოცემულია სტრინგი: word = "Programming"
 #    • დაბეჭდეთ სტრინგი უკუღმა ისე, რომ გამოტოვებული იყოს ყოველი მეორე ასო.
 #    • ამოჭერით სტრინგი შუა სამი ასო.
 #    • შეაერთეთ მხოლოდ ლუწ ინდექსებზე მყოფი ასოები.
 word1 = "Programming"
-print(word1[-1:0:-2])
+print(word1[::-2])
 print(word1[4:7])
+print(word1[1] + word1[3] + word1[5] + word1[7] + word1[9])
 # 7) შექმენით ცვლადი alphabet = "abcdefghijklmnopqrstuvwxyz"
 #  შექმენი სიტყვა "python" ამ სტრინგიდან ინდექსების კომბინაციით.
 alphabet = "abcdefghijklmnopqrstuvwxyz"
