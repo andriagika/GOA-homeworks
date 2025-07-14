@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: aliceblue;
+    background-color: blue;
+}
+p{
+    color: red;
+    text-align: center;
+}
+
+img{
+    text-align: center;
+    border-radius: 5px;
+    width: 400px;
+}
