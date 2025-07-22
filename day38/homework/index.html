@@ -1,0 +1,47 @@
+<!-- Id-ებს და Class-ებს ვიყენებთ HTML ელემენტების სტილის განსასაზღვრად და მათზე კონკრეტული სტრუქტურული ან ფუნქციური მოქმედებების შესასრულებლად.
+
+Id უნიკალურია და გამოიყენება მხოლოდ ერთ ელემენტზე, რათა მასთან უნიკალური სტილი ან ფუნქცია მივაბათ .
+
+Class გამოიყენება მრავალ ელემენტზე, რომ ერთნაირი სტილები ან ფუნქციები ჰქონდეთ მათ. -->
+
+<!-- id selector მეორე ნაირად ეწოდება უნიკალური სელექტორი. id უნიკალურია მთელ დოკუმენტში მხოლოდ ერთ ელემენტს შეიძლება ჰქონდეს კონკრეტული class ერთი და იგივე კლასი შეიძლება ჰქონდეს ბევრ ელემენტს. 
+CSS სელექტორები არიან ორივე გამოიყენება ელემენტების სტილიზებისთვის CSS-ში -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <style>
+ 
+    .green-button {
+      background-color: green;
+      font-family: Arial, sans-serif;
+      border: 2px solid orange;
+      color: white;
+      padding: 10px 20px;
+      margin: 5px;
+    }
+
+    .red-button {
+      background-color: darkred;
+      font-family: Verdana, sans-serif;
+      border: 1px double blue;
+      color: white;
+      padding: 10px 20px;
+      margin: 5px;
+    }
+  </style>
+
+
+  <button class="green-button">ღილაკი 1</button>
+  <button class="green-button">ღილაკი 2</button>
+  <button class="green-button">ღილაკი 3</button>
+
+  <button class="red-button">ღილაკი 4</button>
+  <button class="red-button">ღილაკი 5</button>
+
+</body>
+</html>
