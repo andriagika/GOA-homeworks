@@ -1,0 +1,23 @@
+.h2{
+    color: #ff00ff ;
+    border: dotted;
+    text-align: center;
+}
+#photo{
+   width: 150px;
+    height: 150px;
+    color: #ff00ff;
+    border: solid;
+}
+
+.photo1{
+    border: #255,0,0 double;
+    width: 200px;
+    height: 200px;
+ }
+
+ .but{
+    
+    width: 200px;
+    height: 200px;
+ }
