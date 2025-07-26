@@ -7,9 +7,9 @@
 # # print("wORld".capitalize())
 # # # 2) მომხმარებელს შემოატანინეთ სიტყვა. ტერმინალში კი დაბეჭდეთ ეს სიტყვა ისე რომ იყოს:
 # # word = input("Enter your word: ")
-# # print(f"all small word {word}".lower())
-# # print(f"all big word {word}".upper())
-# # print(f"first word big all small word {word}".capitalize())
+# # print(word.lower())
+# # print(word.upper())
+# # print(word.capitalize())
 # # # 1. ყველა პატარა ასო;
 # # # 2. ყველა დიდი ასო;
 # # # 3. პირველი ასო დიდი, ხოლო ყველა დანარჩენი პატარა.
@@ -19,11 +19,12 @@
 # # # მეორე წინადადებაზე — .upper()
 # # # მესამე წინადადებაზე — .capitalize()
 # # word1 = input("Enter your word: ")
+# # print(word1.lower())
 # # word2 = input("Enter your word: ")
+# # printword2.upper())
 # # word3 = input("Enter your word: ")
-# # print(f"all small word {word1}".lower())
-# # print(f"all big word {word2}".upper())
-# # print(f"first word big all small word {word3}".capitalize())
+# # print(word3.capitalize())
+
 # # 4) ცვლადში შეინახე შენი სახელი. მომხმარებელს შეეკითხე თავისი სახელი, იმ შემთხვევაში თუ თქვენი სახელები ემთხვევა დაბეჭდეთ "Our names are similar!", თუ არ ემთხვევა დაბეჭდეთ "We have different names". გაითვალისწინეთ, რომ მომხმარებელმა შეიძლება თქვენნაირი სახელი შემოიტანოს, თუმცა სახელის ასოები შესაძლოა იყოს სხვადასხვა შრიფტის ზომით, ამიტომ ამან თქვენ პროგრამაში შეფერხება არ უნდა გამოიწვიოს (გამოიყენეთ ნასწავლი სტრინგის მეთოდები)
 # # name = "Andria"
 # # name1 = input("What is your name?: ")

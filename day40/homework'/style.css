@@ -1,0 +1,54 @@
+.Class {
+  text-align: left;
+}
+#ID {
+  text-align: center;
+  border: 1px solid blue;
+}
+p {
+  background-color: black;
+}
+.purple-text-name {
+  color: purple;
+}
+.purple-text-rgb {
+  color: rgb(128, 0, 128);
+}
+.purple-text-hex {
+  color: #800080;
+}
+
+.green-orange-btn {
+  background-color: rgb(0, 128, 0);
+  border: 2px solid rgb(255, 165, 0);
+  color: white;
+}
+.darkred-blue-btn {
+  background-color: #8B0000;
+  border: 1px double #0000FF;
+  color: white;
+}
+
+#photo1 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #8B0000; 
+}
+
+#photo2 {
+  width: 150px;
+  height: 150px;
+  border: 3px dashed #0000FF;
+}
+
+#photo3 {
+  width: 200px;
+  height: 200px;
+  border: 4px dotted #800080;
+}
+
+#photo4 {
+  width: 250px;
+  height: 250px;
+  border: 2px double #008000; 
+}
