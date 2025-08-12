@@ -1,0 +1,36 @@
+/* 
+/* color – ტექსტის ფერის დასაწესებლად 
+color: red;
+
+/* font-family – ტექსტის შრიფტის ტიპი 
+font-family: 'Arial', sans-serif;
+
+/* font-size – ტექსტის ზომა 
+font-size: 16px;
+
+/* font-weight – ტექსტის გამუქება: normal, bold  ან პიქსელი
+font-weight: bold;
+
+/* font-style – ტექსტის სტილი: normal, italic, 
+font-style: italic;
+
+/* text-align – ტექსტის ჰორიზონტალური გასწორება: left, center, right,  
+text-align: center;
+
+/* text-decoration – ტექსტზე ხაზის დამატება ან მოცილება
+text-decoration: underline; */
+
+/* ------------------------------------------------------------- */
+
+/* 
+/* none – ხაზი არ აქვს ტექსტს
+text-decoration: none;
+
+/* underline – ტექსტს ქვედა ხაზი უჩნდება
+text-decoration: underline;
+
+/* overline – ტექსტს ზედა ხაზი უჩნდება
+text-decoration: overline;
+
+/* line-through – ტექსტს ხაზი გადაუვლის
+text-decoration: line-through; */

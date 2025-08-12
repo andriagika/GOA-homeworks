@@ -1,0 +1,48 @@
+
+body {
+  padding: 30px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.para1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+
+.para2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+.para3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+/* Nav სტილი */
+nav {
+  margin-top: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: blue;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+nav a:hover {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a:active {
+  color: black;
+}
+
+nav a:visited {
+  color: violet;
+  font-weight: normal;
+}

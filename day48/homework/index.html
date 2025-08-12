@@ -1,0 +1,119 @@
+<!-- border-collapse არის CSS-ის თვისება, რომელიც გამოიყენება ცხრილის table უჯრების ბორდერების გაერთიანების ან განცალკევების სამართავად.
+separate ერთმანეთისგან გამოყოფილია, თითოეულ უჯრას აქვს საკუთარი საზღვარი.
+collapse ცხრილის ხაზების მოშორებაა. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Leaderboard</h2>
+  <table class="styled-table">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Points</th>
+        <th>Team</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Domenic</td>
+        <td>88,110</td>
+        <td>dcode</td>
+      </tr>
+      <tr class="highlight">
+        <td>2</td>
+        <td>Sally</td>
+        <td>72,400</td>
+        <td>Students</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Nick</td>
+        <td>52,300</td>
+        <td>dcode</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Domain Pricing</h2>
+  <table class="styled-table">
+    <thead>
+      <tr>
+        <th>TLD</th>
+        <th>Duration</th>
+        <th>Registration</th>
+        <th>Renewal</th>
+        <th>Transfer</th>
+        <th>Register</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>.com</td>
+        <td>1 Year</td>
+        <td>$70.00</td>
+        <td>$5.00</td>
+        <td>$5.00</td>
+        <td><button class="signup">Sign Up</button></td>
+      </tr>
+      <tr>
+        <td>.net</td>
+        <td>1 Year</td>
+        <td>$75.00</td>
+        <td>$5.00</td>
+        <td>$5.00</td>
+        <td><button class="signup">Sign Up</button></td>
+      </tr>
+      <tr>
+        <td>.org</td>
+        <td>1 Year</td>
+        <td>$65.00</td>
+        <td>$5.00</td>
+        <td>$5.00</td>
+        <td><button class="signup">Sign Up</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Student Interests</h2>
+  <table class="styled-table">
+    <thead>
+      <tr>
+        <th>Person</th>
+        <th>Most interest in</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Chris</td>
+        <td>HTML tables</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>Dennis</td>
+        <td>Web accessibility</td>
+        <td>45</td>
+      </tr>
+      <tr>
+        <td>Sarah</td>
+        <td>JavaScript frameworks</td>
+        <td>29</td>
+      </tr>
+      <tr>
+        <td>Karen</td>
+        <td>Web performance</td>
+        <td>36</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
