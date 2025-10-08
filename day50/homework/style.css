@@ -1,0 +1,29 @@
+.roman-list {
+  list-style-type: upper-roman;
+  list-style-position: outside;
+}
+
+.country-list {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+.days-list {
+  list-style-type: lower-alpha;
+}
+
+.product-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-list li {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.custom-marker-list {
+  list-style-image: url('marker.png');
+}

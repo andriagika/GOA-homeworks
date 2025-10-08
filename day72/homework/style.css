@@ -1,0 +1,157 @@
+body {
+  background: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 20px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.poster {
+  width: 300px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+/* --- Poster 1 --- */
+.poster.one {
+  background: linear-gradient(to right, rgb(255, 254, 254) 50%, black 50%);
+}
+.poster.one .circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  right: -1px;
+  left: -1px;
+  top: 50px;
+  background: linear-gradient(to right, black 50%, white 50%);
+}
+
+/* --- Poster 2 --- */
+.poster.two {
+  background: #1353A8;
+}
+.poster.two .circle1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: #F4B052;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.poster.two .circle2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: #E84A3C;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.poster.two .eye {
+  width: 180px;
+  height: 90px;
+  background: #EDE0C8;
+  position: absolute;
+  top: 180px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50% / 50%;
+}
+.poster.two .pupil1 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #1353A8;
+  position: absolute;
+  top: 190px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.poster.two .pupil2 {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  top: 207px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* --- Poster 3 --- */
+.poster.three {
+  background: black;
+}
+.poster.three .circle {
+  width: 160px;
+  height: 160px;
+  background: #1353A8;
+  border-radius: 50%;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+.poster.three .line1 {
+  width: 3px;
+  height: 100%;
+  background: white;
+  position: absolute;
+  left: 80px;
+  top: 0;
+}
+.poster.three .line2 {
+  width: 100%;
+  height: 3px;
+  background: white;
+  position: absolute;
+  top: 230px;
+  left: 0;
+}
+.poster-container {
+    width: 300px;
+    height: 300px;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.outer-ring {
+    width: 100%; 
+    height: 100%;
+    background-color: #fff; 
+    border-radius: 50%; 
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 315px; 
+    height: 315px;
+}
+
+.center-dot {
+    width: 25%; 
+    height: 25%;
+    background-color: #000; 
+    border-radius: 50%;
+}

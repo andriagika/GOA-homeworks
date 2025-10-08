@@ -1,0 +1,14 @@
+#container{
+    display: flex;
+    border: 2px solid black;
+    width: 600px;
+    height: 600px;
+    justify-content: space-evenly;
+}
+.items{
+    border: 3px solid rgb(215, 18, 18);
+    width: 150px;
+    height: 150px;
+    justify-items: space-evenly;
+
+}

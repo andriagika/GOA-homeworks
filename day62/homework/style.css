@@ -1,0 +1,71 @@
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 10px;
+}
+.box {
+  flex: 1;
+  background-color: purple;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.3s;
+  border: 2px solid black;
+}
+.box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.box p {
+  font-size: 14px;
+}
+.box:nth-child(1):hover {
+  background-color: darkviolet;
+  transform: scale(1);
+}
+.box:nth-child(2) {
+  background-color: blue;
+}
+.box:nth-child(2):hover {
+  background-color: navy;
+  color: white;
+  transform: scale(1);
+}
+.box:nth-child(3):hover {
+  background-color: indigo;
+  transform: scale(1);
+}
+.box:nth-child(4) {
+  background-color: blue;
+}
+.box:nth-child(4):hover {
+  background-color: darkblue;
+  transform: scale(1);
+}
+.gallery {
+  gap: 20px;
+  padding: 20px;
+  background-color: #06063d;
+  border-radius: 16px;
+  width: 500px;
+}
+.album {
+  background-color: #0e0e40;
+  padding: 10px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 0 transparent;
+}
+.album img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+.album:hover {
+  transform: scale(1);
+  box-shadow: 0 0 15px #ffffff80;
+}

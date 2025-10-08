@@ -1,0 +1,39 @@
+    .container {
+      width: 500px;
+      height: 500px;
+      background: lightgray;
+      position: relative;
+      margin: 20px auto;
+    }
+
+    .box {
+      width: 80px;
+      height: 80px;
+      position: absolute;
+    }
+
+    .red { background: red; top: 0; left: 0; }
+    .blue { background: blue; top: 0; right: 0; }
+    .green { background: green; bottom: 0; left: 0; }
+    .yellow { background: yellow; bottom: 0; right: 0; }
+
+        .img-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .img-container img {
+      width: 600px;
+      height: auto;
+    }
+
+    .img-description {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }

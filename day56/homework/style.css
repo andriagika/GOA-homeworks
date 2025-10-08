@@ -1,0 +1,55 @@
+.main-box {
+  display: flex;
+  flex-direction: row;  
+  justify-content: flex-start; 
+  align-items: flex-end;    
+  height: 300px;
+  border: 1px solid #000;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  background-color: #4caf50;
+  margin: 10px;
+}
+.parent {
+  display: flex;
+  justify-content: center;  
+  margin: 30px 0;
+}
+
+.box {
+  width: 40px;
+  height: 40px;
+  background-color: orange;
+  margin: 5px;
+}
+.container {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;       
+  height: 200px;
+  border: 1px solid #333;
+}
+
+.para {
+  display: inline;        
+  border: 1px solid blue;
+  margin: 0 10px;
+}
+.image-container {
+  width: 500px;
+  height: 500px;
+  border: 2px dashed #888;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  gap: 10px;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}

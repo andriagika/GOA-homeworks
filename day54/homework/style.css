@@ -1,0 +1,45 @@
+
+    button {
+      margin: 10px;
+    }
+
+    
+    #btn1 {
+      border: 2px solid blue;
+      padding: 3px;
+    }
+
+    
+    #btn2 {
+      border: 3px dashed green;
+      padding: 5px;
+    }
+
+    
+    #btn3 {
+      border: 4px dotted red;
+      padding: 8px;
+    }
+    
+  p {
+    text-align: center;
+    margin-top: 55px;
+  }
+
+  h1, h2 {
+    display: inline-block;
+    margin-right: 250px;
+  }
+
+  img {
+    border: 3px double red;
+    margin: 10px;
+  }
+
+  #img1 {
+    padding: 10px;
+  }
+
+  #img2 {
+    padding: 20px;
+  }

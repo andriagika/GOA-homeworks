@@ -1,0 +1,45 @@
+<!-- CSS position განსაზღვრავს, როგორ განთავსდება ელემენტი ვებ-გვერდზე.
+static ელემენტი დგას ჩვეულებრივ დოკუმენტის ნაკადში (default).
+არ იღებს top, left, right, bottom მნიშვნელობებს.
+relative ელემენტი ჩვეულებრივ ადგილას დგას, მაგრამ შესაძლებელია გადაადგილდეს თავისი საწყისი პოზიციიდან top, left, right, bottom-ის დახმარებით.
+სივრცე, რომელსაც იკავებდა, მაინც რჩება.
+absolute ელემენტი მთლიანად გამოეთიშება დოკუმენტის ნაკადს და აბსოლუტურად პოზიცირდება უახლოესი position: relative (ან სხვა non-static) მშობლის მიმართ.
+თუ ასეთი მშობელი არ არსებობს მაშინ მთელ ბრაუზერის ფანჯარაზე (body) მიედინება. -->
+<!-- relative — გადაადგილდება თავისი თავდაპირველი ადგილიდან, მაგრამ სივრცე მაინც რჩება.
+absolute — გადაადგილდება მშობელი კონტეინერის მიმართ და დოკუმენტის ნაკადიდან სრულად ქრება. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="box">
+    <div class="child"></div>
+  </div>
+<div style="width:300px; height:300px; background:blue; position:relative;">
+  <div style="width:100px; height:100px; background:red; position:relative; top:20px; left:30px;"></div>
+</div>
+<div style="width:300px; height:300px; background:lightgray; position:relative; margin:20px auto;">
+  <div style="width:50px; height:50px; background:red; position:absolute; top:0; left:0;"></div>
+  <div style="width:50px; height:50px; background:green; position:absolute; bottom:0; right:0;"></div>
+  <div style="width:50px; height:50px; background:blue; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);"></div>
+</div>
+<div style="position:relative; display:inline-block;">
+  <img src="./642bda8c-750f-4603-a485-d61f4407f414.webp" alt="Example Image" style="width: 800px;">
+  <h2 style="position:absolute; top:20px; left:20px; color:white; background:rgba(0,0,0,0.5); padding:5px;">
+    ეს არის ფოტოს აღწერა
+  </h2>
+</div>
+<div style="position:relative; width:100vw; height:100vh; display:flex; justify-content:center; align-items:center; background:#eee;">
+  <div style="position:relative;">
+    <img src="./le-mansory-under-armour-curry-1.jpg" alt="Center Photo" width="800px">
+    <div style="position:absolute; top:-10px; left:0; width:100%; height:10px; background:black;"></div>
+    <div style="position:absolute; bottom:-10px; left:0; width:100%; height:10px; background:black;"></div>
+    <div style="position:absolute; top:0; left:-10px; width:10px; height:100%; background:black;"></div>
+    <div style="position:absolute; top:0; right:-10px; width:10px; height:100%; background:black;"></div>
+  </div>
+</div>
+
+</body>
+</html>

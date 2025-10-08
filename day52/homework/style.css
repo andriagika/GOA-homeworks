@@ -1,0 +1,36 @@
+form {
+  background-color: #e0f0ff; /* ღია ცისფერი */
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+label {
+  color: red;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+  background-color: #add8e6; /* ლურჯი */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  text-shadow: 0 0 3px #0000ff;
+}

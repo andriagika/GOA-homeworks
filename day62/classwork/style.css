@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+#hero {
+  background: url('bmw-hero.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 4em;
+  text-align: center;
+}
+
+section {
+  padding: 2em;
+}
+
+.car-list {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.car {
+  border: 1px solid #ccc;
+  padding: 1em;
+  width: 30%;
+  
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #f4f4f4;
+}
