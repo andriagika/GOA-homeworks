@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loader{
+    width: 60px;
+    height: 60px;
+    border : 6px solid #444;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    animation-delay: 3s;
+
+}
+
+@keyframes spin {
+    from{
+        transform: ;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

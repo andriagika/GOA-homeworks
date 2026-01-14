@@ -1,0 +1,9 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    transition: transform 0.5s ease;
+}
+.box:hover {
+    transform: rotate(45deg); scale: (0.5);
+}

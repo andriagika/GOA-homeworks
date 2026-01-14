@@ -1,0 +1,66 @@
+img{
+    width: 300px;
+    height: 150px;
+}
+
+.box {
+  width: 300px;
+  height: 150px;
+  background-color: red;
+  transition: all 3s;
+  padding: 10px;
+}
+
+.box:hover {
+  transform: translateX(-100px);
+  background-color: rgb(0, 128, 119);
+  padding: 10px;
+}
+
+.box2 {
+  width: 300px;
+  height: 150px;
+  background-color: blue;
+  transition:
+    transform 3s,
+    background-color 3s,
+    top 1s;
+  position: relative;
+  padding: 10px;
+}
+
+.box2:hover {
+  transform: translateY(200px) rotate(120deg);
+  background-color: orange;
+}
+
+.creative {
+  width: 300px;
+  height: 150px;
+  transition: transform 2s, background 2s, border-radius 2s;
+  background-color: rgb(255, 251, 13);
+  padding: 10px;
+}
+
+.creative:hover {
+  transform: rotateY(180deg) scale(1.2);
+  background-color: blue;
+  padding: 10px;
+}
+
+.box3 {
+  width: 300px;
+  height: 150px;
+  background-color: blue;
+  transition:
+    transform 10s,
+    background-color 3s,
+    
+  position: relative;
+  padding: 10px;
+}
+
+.box3:hover {
+  transform: translateX(1000px) rotate(360deg);
+  background-color: orange;
+}

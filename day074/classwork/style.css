@@ -1,0 +1,25 @@
+.header{
+    position: fixed;
+    top: 0;
+    width: 600px;
+    background-color: rgb(0, 0, 0) ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar{
+    position: sticky;
+    top: 60px;
+    background-color: black;
+    text-align: center;
+    padding: 10px ;
+}
+button{
+    border-radius: 15px;
+}
+.navbar a{
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}

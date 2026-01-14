@@ -1,0 +1,10 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  transition: transform 0.5s;
+}
+
+.box:hover {
+  transform: rotate(45deg) scale(0.5);
+}

@@ -1,0 +1,12 @@
+.move-left {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: transform 3s, background-color 3s; /* დროის ხანგრძლივობა */
+    margin: 50px;
+}
+
+.move-left:hover {
+    transform: translateX(-100px); /* მარცხნივ გადაადგილება */
+    background-color: indigo; /* იისფერი */
+}

@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.section1 {
+    height: 500px;
+    background-image: url('background1.jpg');
+    background-size: 500px 500px;
+    background-repeat: repeat-y;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+
+.section2 {
+    height: 500px;
+    background-image: url('background2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+ }
+
+.section3 {
+    height: 500px;
+    background-image: url('goa_mma.jpg');
+    background-size: 400px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+    color: black;
+    font-size: 24px;
+}

@@ -1,0 +1,38 @@
+alt-section1 {
+    height: 400px;
+    background-image: url('alt_background1.jpg');
+    background-size: 300px 300px;
+    background-repeat: repeat-x; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 22px;
+}
+
+.alt-section2 {
+    height: 450px;
+    background-image: url('alt_background2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+    font-size: 24px;
+}
+
+.alt-section3 {
+    height: 500px;
+    background-image: url('alt_goa_mma.jpg');
+    background-size: 350px 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 26px;
+}

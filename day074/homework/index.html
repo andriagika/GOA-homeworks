@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- position: fixed; ელემენტი გამოაქვს ბლოკის ნორმალური ნაკადიდან და იცავს ფიქსირებულ მდებარეობას viewport-ის მიმართ.
+მაგალითად: fixed chat bubble ან navbar, რომელიც ყოველთვის ეკრანის ქვედა/ზედა/მარჯვენა/მარცხენა ნაწილში დარჩება, განურჩევლად scroll-ის.
+position: sticky; ელემენტი ნორმალურ დოკუმენტის ნაკადს დარჩება მანამ, სანამ არ მიაღწევს მოცემულ საზღვრებს.
+scroll-ის დროს ის "გადაკვეთილი" ხდება და ეკვრის განსაზღვრულ პოზიციას (მაგალითად გვერდის ზედა ნაწილი), მაგრამ მხოლოდ მანამ,
+სანამ მისი მშობელი (scroll container) არ დამთავრდება.
+ორივე შეიძლება გამოიყურებოდეს "ფიქსირებულად" მომხმარებლის ეკრანზე.
+fixed არის ყოველთვის viewport-ის მიმართ ფიქსირებული და ყოველთვის დატოვებს დოკუმენტის ნორმალურ ნაკადს (other elements არ იციან მის შესახებ),
+ხოლო sticky რჩება ნორმალურ ნაკადში და მხოლოდ შემდეგ ხდება ფიქსირებული როცა scroll-ი მიაღწევს მის THRESHOLD-ს (მაგალითად top:0).
+fixed საჭიროებს coordinates (top/right/bottom/left) და viewport-ზე დამოკიდებულია; sticky-სთვის საჭიროა scrollable parent და მადანე top/right და ა.შ.
+ -->
+
+
+  <header>
+    <h1> მანქანები</h1>
+    <p>მაღალი სიჩქარე, თავისუფლება და ადრენალინი!</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>მანქანების შესახებ</h2>
+      <p>მანქანები არის 4 საბურავიანი სატრანსპორტო საშუალება, რომელიც გამოიყენება სწრაფად გადაადგილებისთვის და სპორტული მიზნებისთვისაც.</p>
+    </section>
+
+    <section id="models">
+      <h2>პოპულარული მოდელები</h2>
+      <ul>
+        <li>Buggati tourbilon</li>
+        <li>Mercedes Benz Mansory</li>
+        <li>Bmw M5 CS</li>
+        <li>Ferrari laferrari</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>გალერეა</h2>
+      <img src="./images (1).jpg" >
+      <img src="./le-mansory-under-armour-curry-1.jpg">
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 car Page — ყველა უფლება დაცულია.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+    body {
+      background-repeat: repeat-x; 
+      background-size: contain;   
+      background-position: center;
+    }
+    body {
+      background-repeat: repeat;  
+      background-size: 200px 200px;
+    }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 3em;
+      color: #ff3b3b;
+      text-shadow: 2px 2px 10px black;
+    }
+
+    section {
+      padding: 40px;
+      background: rgba(0, 0, 0, 0.6);
+      margin: 30px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    button {
+      background-color: #ff3b3b;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: #d42b2b;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.8);
+    }

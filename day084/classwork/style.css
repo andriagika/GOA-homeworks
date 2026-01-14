@@ -1,0 +1,14 @@
+.big{
+    background-color: aqua;
+    border-radius: 100px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+.big:hover{
+   
+    transform: scale(2)  translate(600px, 0);
+    
+
+}
